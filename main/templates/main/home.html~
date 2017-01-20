@@ -1,0 +1,9 @@
+{% extends "main/header.html" %}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+{% block content %}
+<h1 style="color:green;">I Love Gakki!</h1>
+<img src="{% static 'img/kioko.jpg' %}">
+{% include "main/includes/hello.html" %}
+{% endblock %}
+
